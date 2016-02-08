@@ -1,0 +1,110 @@
+
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <title></title>
+   <link rel="stylesheet" type="text/css" href="style.css">
+   <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+   <script src="https://cdn.firebase.com/js/client/2.4.0/firebase.js"></script>
+    <script type="text/javascript" src="validation.js"></script>    
+<script src=logic.js>
+</script>
+</head>
+<body>
+
+<div id="header">
+ 
+<center>
+
+
+  <div class="container text-center">
+   <div >SEARS HOLDINGS <br> INDIA  </div>
+  </div>
+
+  </center>
+ 
+
+</div>
+
+<div  class="container-fluid text-center" style=" margin-left:15px;">
+
+<div class="row ">
+<div class="col-sm-5 " id="left">
+   <div class="leftCont">
+     <img id ="imgc" src="img/img1.jpg" alt="car logo" height="120" width="98%">
+	 <p>
+	    In retrospection of Dennis's visit, teams and associates have admired Dennis for his tireless ability to work and create strategies and solutions, 
+		while participating in team interactions at the same time. During his floor visit, Dennis wowed associates by speaking to them one on one and 
+		acknowledging the contributions made by them towards the larger organization.
+	 </p>
+   </div>
+   <div class="leftCont">
+     <img id ="imgc" src="img/img2.jpg" alt="car logo" height="120" width="95%">
+	 <p>
+	    Sears Holdings, a leading integrated retailer with stores across the United States, is going to open its second technology center at the 
+		Embassy Tech Park in Sarjapur, Bengaluru, and is currently awaiting necessary regulatory clearances. This center, tentatively scheduled to open 
+		in September, will be spearheaded by MD Alok Kumar, who is also heading Sears’s first development center in Pune, and will focus on developing
+		solutions for Omni-channel retail.
+	 </p>
+   </div>
+</div>
+<div class="col-sm-6 " id="content">
+
+<h3>Latest Updates</h3>
+
+<div id="outerdiv">
+<span>News1:</span>
+<div id="dev1">
+
+</div>
+<div id="innerdiv"><a href="news.html#news1">Read More..</a></div>
+</div>
+
+<div id="outerdiv">
+<span>News2:</span>
+<div id="dev2">
+</div>
+<div id="innerdiv"><a href="news.html#news2">Read More..</a></div>
+</div>
+
+
+<div id="outerdiv">
+<span>News3:</span>
+<div id="dev3">
+</div>
+<div id="innerdiv"><a href="news.html#news3">Read More..</a></div>
+</div>
+
+<div id="outerdiv" >
+<span>News4:</span>
+<div id="dev4">
+</div>
+<div id="innerdiv"><a href="news.html#news1">Read More..</a></div>
+</div>
+</div>
+</div></div>
+
+
+
+<div id="footer" class="row content">
+   <div class="col-sm-6 " style="padding-left:60px;" >
+    <p>Reach Us at...</p>   
+    <p><i class="fa fa-phone"> &nbsp; &nbsp; +11 33664554</i> </p>
+    <p> <i class="fa fa-envelope"></i>&nbsp; &nbsp; info@searshc.com</p>
+	<p><i class="fa fa-home"></i>&nbsp; &nbsp; Sears Holding India,<br/>Wing 4, Cluster D,<br/> Eon Free Zone,<br/> Kharadi, Pune</p>
+    <p><strong>&#169;  Copyrighted Contents</strong></p>
+  </div>
+  <div class="col-sm-6 ">
+    <form name="val" onsubmit="return validateForm()">
+    <p>We value your feedback!....</p>
+    <p><input type="email" name="email" placeholder="Email" >   </p>
+    <p><input type="text" name="uname" placeholder="Name">   </p>
+	<p><textarea rows="4" cols="20" name="msg" placeholder="Describe yourself here..."></textarea></p>
+    <p><input type="submit" name="submitBtn" value="Submit" placeholder="Name">   </p>
+	<p id="result"></p>
+	</form>
+  </div>
+</body>
+</html>
